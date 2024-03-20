@@ -1,0 +1,66 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block content %}
+    <section id="top" class="text-center" style="overflow-x:hidden;height: 100%;">
+            <!--title section-->
+        {% include "main/snippets/topbar.html" %}
+        <h4 class="tr-c">TRAININGS & CONSULTANCY</h4>
+        <div class="nana-new">
+            <div class="nana1-new">
+                <img src="../../static/main/images/tr1.jpeg" alt="safe" />
+            </div>
+            <div class="nana1-new">
+                <img src="../../static/main/images/h1.jpeg" alt="safe" />
+            </div>
+            <div class="nana1-new">
+                <img src="../../static/main/images/he.jpeg" alt="safe" />
+            </div>
+            <div class="nana1-new">
+                <img src="../../static/main/images/ind.jpeg" alt="safe" />
+            </div>
+            <!-- <div class="nana2-new">
+               <h3>TRAININGS & CONSULTANCY SERVICES</h3>
+            </div> -->
+        </div>
+        <div class="sectors-new">
+            <div>
+                <h4 class="sechead">OUR TRAININGS</h4>
+                <h5 class="sechead5">Our trainings Include the Following.</h5>
+              
+                    <div class="sec-new">
+                        <ol>
+                            <li>Emergence Preparedness & Response</li>
+                            <li>Working at Heights</li>
+                            <li>Confined Space</li>
+                            <li>Control of harzadous Substances</li>
+                            <li>Electrical Safety</li>
+                            <li>Fire Preparedness and Response</li>
+                            <li>Risk | Hazard Identification and Mgt</li>
+                            <li>Energy Isolation</li>
+                        </ol>
+                    </div>
+            </div>
+            <div>
+                <h4 class="sechead">CONSULTANCY</h4>
+                <h5 class="sechead5">Our Consultancy Services Include;</h5>
+                <div class="sec-new">
+                    <ol>
+                        <li>Workplace inspection</li>
+                        <li>Audits</li>
+                        <li>Implementation of ISO 9001</li>
+                        <li>Implementation of ISO 45001</li>
+                        <li>Implementation of ISO 14001</li>
+                        <li>Policy Formulation</li>
+                        <li>HSE Manual Development</li>
+                        <li>HSE Documentation</li>
+                    </ol>
+                </div>
+            </div>
+            
+               
+        </div>
+        {% include "main/snippets/footer.html" %}
+    </section>
+
+{% endblock %}

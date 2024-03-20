@@ -1,0 +1,33 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block content %}
+    <section id="top" class="text-center" style="overflow-x:hidden;height: 100%;">
+            <!--title section-->
+        {% include "main/snippets/topbar.html" %}
+        <div class="sectors-eq">
+            <div class="sec-eqp">
+                <h4 class="sechead">SUPPLIES & EQUIPMENT</h4>
+                <h5 class="sechead5">Reach out for any Safety Equipments!</h5>
+                
+                <div class="secmajor">
+                    <div class="sec-eqp1">
+                        <h5>Personal Protective Eqpt</h5>
+                        <img src="../../static/main/images/ppe.png" alt="ppe" />
+                    </div>
+                    <div class="sec-eqp1">
+                        <h5>Fire Fighting Eqpt</h5>
+                        <img src="../../static/main/images/fire.png" alt="fire" />
+                    </div>
+                    <div class="sec-eqp1">
+                        <h5>First Aid Eqpt</h5>
+                        <img src="../../static/main/images/aid.png" alt="aid" />
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        {% include "main/snippets/footer.html" %}
+    </section>
+
+{% endblock %}
