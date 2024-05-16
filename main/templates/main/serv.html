@@ -1,0 +1,89 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block content %}
+    <section id="top" class="text-center" style="overflow-x:hidden;height: 100%;">
+            <!--title section-->
+        {% include "main/snippets/topbar.html" %}
+        <h4 class="serv">OUR SERVICES</h4>
+        <!-- <h6 class="serv6"> === We offer a wide Range of Services ===</h6> -->
+        <div id="inspect" class="train-main">
+            <div class="train-sub">
+                <h3>HSE INSPECTIONS</h3>
+                <!-- <hr /> -->
+                <p>
+                    At Adbelt Consults Limited, we conduct workplace HSE inspections for their sites, machinery and equipment,
+                    processes to identify hazards and risks and develop an action plan of the mitigation measures to address
+                    the HSE hazards and risks including machinery hazards, psychological hazards, biological and chemical hazards,
+                    ergonomic and physical hazards. This helps our clients to eliminate workplace injuries and cases
+                    of ill-health. We follow the international standards in executing our work with unmatched professionalism.
+                </p>
+            </div>
+            <div>
+                <img src="../../static/main/images/hsetrain.jpg" />
+            </div>
+        </div>
+        <div  id = "audit" class="train-main1">
+            <div>
+
+                <!-- <hr /> -->
+                <img src="../../static/main/images/hseaudit.jpg" />
+
+            </div>
+            <div class="train-sub2">
+                <h3>HSE AUDITS</h3>
+                <p>
+                    At Adbelt Consults Limited, we conduct workplace HSE inspections for their sites, machinery and equipment,
+                    processes to identify hazards and risks and develop an action plan of the mitigation measures to address
+                    the HSE hazards and risks including machinery hazards, psychological hazards, biological and chemical hazards,
+                    ergonomic and physical hazards. This helps our clients to eliminate workplace injuries and cases
+                    of ill-health. We follow the international standards in executing our work with unmatched professionalism.
+                </p>
+            </div>
+        </div>
+        <div  id="train" class="train-main3">
+            <div class="train-sub3">
+                <h3>TRAININGS</h3>
+                <!-- <hr /> -->
+                <p>
+                    In our ambition empower to organisations to integrate the best HSE practices with in their
+                    operations, we conduct well developed trainings that are tailored to be effective and elaborate
+                    to the different sectors. These trainings aid in raising awareness in regards to health, safety and
+                     environment. At Adbelt Consults limited, we have qualified and experienced HSE professionals that
+                     conduct both practical and theoretical trainings. Our trainings can be on-line or physical depending on the
+                      preference of the client. Examples of the trainings we conduct include working in confined spaces, hazard
+                      identification and risk assessment, working-at-height, fire safety,
+                     lifting safety, electrical safety, control of substances hazardous to health, Behaviour safety etc.
+                </p>
+            </div>
+            <div class="train-sub4">
+                <img src="../../static/main/images/trainings.png" />
+            </div>
+        </div>
+        <div class="train-main1">
+            <div>
+
+                <!-- <hr /> -->
+                <img src="../../static/main/images/cons.jpg" />
+
+            </div>
+            <div class="train-subn">
+                <h3>SYSTEMS IMPLEMENTATION</h3>
+                <h6>We Also offer consultancy for the following;</h6>
+                <ul>
+                    <li>HSE policy formulation</li>
+                    <li>HSE documentation</li>
+                    <li>HSE management system development</li>
+                    <li>Risk Assesments</li>
+                    <li>Health and Safety Manuals</li>
+                    <li>Emergency Preapredness and Response</li>
+                    <li>Hazard and Disease Surveillance</li>
+                    <li>Accident Investigations</li>
+                    <li>Job Hazard Analysis</li>
+                </ul>
+            </div>
+        </div>
+
+        {% include "main/snippets/footer.html" %}
+    </section>
+{% endblock %}

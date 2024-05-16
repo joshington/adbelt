@@ -7,7 +7,11 @@ def index(request):
 
 
 def training(request):
-    return render(request, "main/trainings.html", {})
+    return render(request, "main/serv.html", {})
 
 def eqpt(request):
     return render(request, "main/eqpt.html", {})
+
+
+def aboutus(request):
+    return render(request, "main/aboutus.html", {})

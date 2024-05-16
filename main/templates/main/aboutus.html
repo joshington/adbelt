@@ -1,0 +1,52 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+
+{% block content %}
+    <section id="top" class="text-center" style="overflow-x:hidden;height: 100%;">
+            <!--title section-->
+        {% include "main/snippets/topbar.html" %}
+
+
+
+        <div class="sectors-about">
+            <h4 class="sechead-about">ABOUT US</h4>
+            <hr />
+            <p>
+                ADBELT CONSULTS LIMITED is your strategic HSE partner, offering professional support in Health, Safety, and Environment.
+                Our highly trained team has wide experience across sectors like manufacturing, construction, public sector, mining, and oil and gas.
+                We're ready to take on your challenges with our knowledge, skills, and passion. Let's write history together—give us the opportunity to be part of your
+                story and overcome challenges with innovative solutions. Our services, including inspections, audits, supplies,
+                and trainings, are tailored to drive HSE in your organization.
+                We create safe, healthy, and sustainable working environments, optimize HSE performance, streamline processes, and ensure regulatory compliance.
+            </p>
+        </div>
+        <h2 class="about-header">WHO WE ARE</h2>
+        <div class="values-section">
+            <div class="value">
+                <h3>Our Vision</h3>
+                <p>
+                    To be the preferred HSE consultancy.
+                </p>
+            </div>
+            <div class="value">
+                <h3>Our Purpose</h3>
+                <p>
+                    To empower organisations to integrate health, safety, and environment best practices
+                    in all the aspects of organisation’s processes, systems and work practices to ensure sustainability
+                </p>
+            </div>
+            <div class="value">
+                <h3>Core Values</h3>
+                <ul>
+                    <li>Professionalism </li>
+                    <li>Integrity</li>
+                    <li>Customer centricity</li>
+                    <li>Teamwork</li>
+                </ul>
+            </div>
+        </div>
+        {% include "main/snippets/footer.html" %}
+    </section>
+
+{% endblock %}

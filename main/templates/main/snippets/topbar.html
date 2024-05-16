@@ -1,45 +1,49 @@
-
 {% load static %}
 
-
 <header id="main-header">
-    <div class="header-now">
+    <!-- <div class="header-now">
         <ul class="menu-now">
             <li><i class="fa fa-twitter fa-2x"    aria-hidden="true"></i></li>
             <li><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></li>
             <li><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></li>
             <li><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></li>
-            <li>Have any questions?</li>
-            <li>info@adbelt.co.ug</li>
+            <li>Have any questions?</li> -->
+            <!-- <li>info@adbelt.co.ug</li>
             <li>+256 789 400006  </li>
-            <li>+256 759019447</li>
-            
-        </ul>
+            <li>+256 759019447</li> -->
+        <!---</ul>-->
+
     </div>
     <div class="header">
         <div class="navigation">
             <input type="checkbox" class="toggle-menu">
             <div class="hamburger"></div>
 
-            <ul class="menu"> 
+            <ul class="menu">
+                <li>
+                    <img src="../../../static/main/images/ad.jpg" alt="logo" />
+                </li>
                 <li><a href="{% url 'main:index' %}">HOME</a></li>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">SECTORS</a></li>
+                <li><a href="{% url 'main:aboutus' %}">ABOUT US</a></li>
+                <li><a  href="#sectors">SECTORS</a></li>
                 <li>
                     <div class="dropdown">
                         <a href="#" class="dropbtn">SERVICES</a>
                         <div class="dropdown-content">
-                            <a href="{% url 'main:training' %}">TRAININGS & HSE CONSULTANCY</a>
+                            <a href="{% url 'main:training' %}">HSE CONSULTANCY</a>
                             <!-- <a href="#">HSE CONSULTING</a> -->
                             <a href="{% url 'main:eqpt' %}">SUPPLIES OF EQUIPMENT</a>
-                            <a href="#">INSPECTION & AUDIT</a>
+                            <a href="#inspect">INSPECTIONS</a>
+                            <a href="#audit">AUDITS</a>
+                            <a href="#train">TRAININGS</a>
                         </div>
                     </div>
-                    
                 </li>
                 <!-- <li><a href="#">TARGET CLIENTS</a></li> -->
-                <li><a href="#">CONTACT US</a></li>
             </ul>
+            <a class="contact" href="#contactus">
+                <button>CONTACT US</button>
+            </a>
         </div>
     </div>
 </header>
